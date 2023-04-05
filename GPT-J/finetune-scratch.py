@@ -1,4 +1,5 @@
 """OMP_NUM_THREADS=4 WORLD_SIZE=2 CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node=2 --master_port=1234 finetune-scratch.py"""
+# Heavily influenced from https://github.com/tloen/alpaca-lora/. Tweaked to work on my data / hardware / models
 import os
 import sys
 
