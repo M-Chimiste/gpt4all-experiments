@@ -9,3 +9,5 @@ Currently the following are available:
 * inference code for GPT-J
 * Model LoRA weights available here: [M-Chimiste/GPT-J-6B-GPT4ALL-SAMP-LORA-v1](https://huggingface.co/M-Chimiste/GPT-J-6B-GPT4ALL-SAMP-LORA-v1) (Current model is only trained on 50k samples of the GPT4ALL dataset as the full dataset would have taken over 5 days to train on my 2x 3090s.  Hopefully we can do this when I next go on vacation).
 
+TODO:
+* Figure out how to merge lora weights with base model to get an all encompassing checkpoint.
